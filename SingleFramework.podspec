@@ -7,5 +7,6 @@ Pod::Spec.new do |spec|
   spec.summary       = 'ARC and GCD Compatible Reachability Class for iOS and OS X.'
   spec.source        = { :git => 'https://github.com/Vinothkanna-G21/Framework.git', :tag => '0.0.1' }
   spec.ios.deployment_target  = '12.2'
+ spec.framework = 'secondTestFramework'
   spec.source_files       = 'SingleFramework/*.swift', 'SingleFramework/combinedFramework/*.framework'
 end
