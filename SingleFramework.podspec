@@ -8,5 +8,5 @@ Pod::Spec.new do |spec|
   spec.source        = { :git => 'https://github.com/Vinothkanna-G21/Framework.git', :tag => '0.0.1' }
   spec.ios.deployment_target  = '12.2'
 spec.dependency 'Alamofire'
-  spec.source_files       = 'SingleFramework/*.swift', 'SingleFramework/*.framework'
+  spec.source_files       = 'SingleFramework/*.swift', '*.framework'
 end
