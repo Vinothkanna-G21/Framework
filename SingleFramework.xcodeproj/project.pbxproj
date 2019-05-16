@@ -31,8 +31,6 @@
 		E287BB7E228426EA00E8C2FC /* SingleFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleFramework.h; sourceTree = "<group>"; };
 		E287BB7F228426EA00E8C2FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E287BC1E2285857700E8C2FC /* AbstractClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractClass.swift; sourceTree = "<group>"; };
-		E289AA79228C573C00AED508 /* secondTestFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = secondTestFramework.framework; sourceTree = "<group>"; };
-		E289AA7B228C576D00AED508 /* testFrameworks.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = testFrameworks.framework; sourceTree = "<group>"; };
 		FFB2673EBBCFD6A746753DAC /* Pods-SingleFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingleFramework.debug.xcconfig"; path = "Target Support Files/Pods-SingleFramework/Pods-SingleFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,8 +86,6 @@
 		E287BC4B22896F4600E8C2FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E289AA7B228C576D00AED508 /* testFrameworks.framework */,
-				E289AA79228C573C00AED508 /* secondTestFramework.framework */,
 				6BF93353C74A5BF0EB746081 /* libPods-SingleFramework.a */,
 			);
 			name = Frameworks;
