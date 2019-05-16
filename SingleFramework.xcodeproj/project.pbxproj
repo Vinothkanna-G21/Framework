@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54FA3073F2A69B22072DBF12 /* Pods_SingleFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259F95725E61F7D99383F193 /* Pods_SingleFramework.framework */; };
+		066C58DCFE4DABD27FC00A8A /* libPods-SingleFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF93353C74A5BF0EB746081 /* libPods-SingleFramework.a */; };
 		E287BB80228426EA00E8C2FC /* SingleFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E287BB7E228426EA00E8C2FC /* SingleFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E287BC1F2285857700E8C2FC /* AbstractClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287BC1E2285857700E8C2FC /* AbstractClass.swift */; };
 		E289AA7A228C573C00AED508 /* secondTestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E289AA79228C573C00AED508 /* secondTestFramework.framework */; };
@@ -26,7 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		259F95725E61F7D99383F193 /* Pods_SingleFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SingleFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF93353C74A5BF0EB746081 /* libPods-SingleFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SingleFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D71248260717E7FA1A39FD /* Pods-SingleFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingleFramework.release.xcconfig"; path = "Target Support Files/Pods-SingleFramework/Pods-SingleFramework.release.xcconfig"; sourceTree = "<group>"; };
 		E287BB7B228426EA00E8C2FC /* SingleFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SingleFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E287BB7E228426EA00E8C2FC /* SingleFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleFramework.h; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E289AA7A228C573C00AED508 /* secondTestFramework.framework in Frameworks */,
-				54FA3073F2A69B22072DBF12 /* Pods_SingleFramework.framework in Frameworks */,
+				066C58DCFE4DABD27FC00A8A /* libPods-SingleFramework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +92,7 @@
 			children = (
 				E289AA7B228C576D00AED508 /* testFrameworks.framework */,
 				E289AA79228C573C00AED508 /* secondTestFramework.framework */,
-				259F95725E61F7D99383F193 /* Pods_SingleFramework.framework */,
+				6BF93353C74A5BF0EB746081 /* libPods-SingleFramework.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

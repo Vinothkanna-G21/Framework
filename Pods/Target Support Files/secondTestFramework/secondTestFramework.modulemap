@@ -1,4 +1,4 @@
-framework module secondTestFramework {
+module secondTestFramework {
   umbrella header "secondTestFramework-umbrella.h"
 
   export *

@@ -1,4 +1,4 @@
-framework module Pods_SingleFramework {
+module Pods_SingleFramework {
   umbrella header "Pods-SingleFramework-umbrella.h"
 
   export *
