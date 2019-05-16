@@ -8,10 +8,5 @@ Pod::Spec.new do |spec|
   spec.source        = { :git => 'https://github.com/Vinothkanna-G21/Framework.git', :tag => '0.0.1' }
   spec.ios.deployment_target  = '12.2'
   spec.dependency 'secondTestFramework', :git => 'https://github.com/Vinothkanna-G21/TestFramework.git', '~> 0.1.0'
-#   spec.source        =  { 
-#       :git => 'https://github.com/Vinothkanna-G21/TestFramework.git',
-#       :tag => '0.1.0', 
-#       :submodules => true 
-#   }
   spec.source_files       = 'SingleFramework/*.swift', 'SingleFramework/*.h', '*.framework'
 end
