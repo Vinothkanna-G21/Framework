@@ -8,6 +8,6 @@ target 'SingleFramework' do
 #   use_frameworks!
 
   # Pods for SingleFramework
-  pod 'secondTestFramework', 
+  pod 'secondTestFramework'
 #    :git => 'https://github.com/Vinothkanna-G21/TestFramework.git'
 end
