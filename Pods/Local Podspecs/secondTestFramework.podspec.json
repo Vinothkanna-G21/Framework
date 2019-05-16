@@ -1,0 +1,24 @@
+{
+  "name": "secondTestFramework",
+  "version": "0.1.0",
+  "license": {
+    "type": "MIT"
+  },
+  "homepage": "https://github.com/tonymillion/Reachability",
+  "authors": {
+    "VinothkannaG": "vinod.kanna@npcompete.com"
+  },
+  "summary": "ARC and GCD Compatible Reachability Class for iOS and OS X.",
+  "source": {
+    "git": "https://github.com/Vinothkanna-G21/TestFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.2"
+  },
+  "source_files": [
+    "secondTestFramework/*.swift",
+    "SingleFramework/*.h",
+    "*.framework"
+  ]
+}

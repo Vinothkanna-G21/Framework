@@ -1,16 +1,21 @@
 PODS:
-  - Alamofire (4.8.2)
+  - secondTestFramework (0.1.0)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.7)
+  - secondTestFramework (from `https://github.com/Vinothkanna-G21/TestFramework.git`)
 
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - Alamofire
+EXTERNAL SOURCES:
+  secondTestFramework:
+    :git: https://github.com/Vinothkanna-G21/TestFramework.git
+
+CHECKOUT OPTIONS:
+  secondTestFramework:
+    :commit: b24952440242e61d28b74f2805a39b575271b127
+    :git: https://github.com/Vinothkanna-G21/TestFramework.git
 
 SPEC CHECKSUMS:
-  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  secondTestFramework: 734455c028224b582642d2747842dbc5ebd92f9c
 
-PODFILE CHECKSUM: 9f727124e39270ed7f11e3f545d3643fd1366cc2
+PODFILE CHECKSUM: 7d2fec2e8419c1a95a54da56e24d590f41607e2a
 
 COCOAPODS: 1.6.1
