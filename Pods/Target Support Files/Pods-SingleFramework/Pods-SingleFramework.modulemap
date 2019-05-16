@@ -1,0 +1,6 @@
+framework module Pods_SingleFramework {
+  umbrella header "Pods-SingleFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

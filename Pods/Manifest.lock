@@ -1,0 +1,21 @@
+PODS:
+  - secondTestFramework (0.1.0)
+
+DEPENDENCIES:
+  - secondTestFramework (from `https://github.com/Vinothkanna-G21/TestFramework.git`)
+
+EXTERNAL SOURCES:
+  secondTestFramework:
+    :git: https://github.com/Vinothkanna-G21/TestFramework.git
+
+CHECKOUT OPTIONS:
+  secondTestFramework:
+    :commit: b24952440242e61d28b74f2805a39b575271b127
+    :git: https://github.com/Vinothkanna-G21/TestFramework.git
+
+SPEC CHECKSUMS:
+  secondTestFramework: 734455c028224b582642d2747842dbc5ebd92f9c
+
+PODFILE CHECKSUM: 62737cceb505c5e70679bedb86dbc21903a96c32
+
+COCOAPODS: 1.6.1
