@@ -7,7 +7,7 @@
 //
 
 import Foundation
- import secondTestFramework
+import Alamofire
 
 public class interfaceClass {
     public init() {
@@ -15,7 +15,10 @@ public class interfaceClass {
     }
 
     public static func getString(For name: String) -> String {
-         let str = PersonalInfo.getInfo(With: name)
-        return str
+//         let str = PersonalInfo.getInfo(With: name)
+        Alamofire.request("https://httpbin.org/get").responseJSON { response in
+            print("Tested")
+        }
+        return "Success"
     }
 }

@@ -10,7 +10,6 @@
 		066C58DCFE4DABD27FC00A8A /* libPods-SingleFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF93353C74A5BF0EB746081 /* libPods-SingleFramework.a */; };
 		E287BB80228426EA00E8C2FC /* SingleFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E287BB7E228426EA00E8C2FC /* SingleFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E287BC1F2285857700E8C2FC /* AbstractClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287BC1E2285857700E8C2FC /* AbstractClass.swift */; };
-		E289AA7A228C573C00AED508 /* secondTestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E289AA79228C573C00AED508 /* secondTestFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,7 +41,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E289AA7A228C573C00AED508 /* secondTestFramework.framework in Frameworks */,
 				066C58DCFE4DABD27FC00A8A /* libPods-SingleFramework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
