@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double secondTestFrameworkVersionNumber;
-FOUNDATION_EXPORT const unsigned char secondTestFrameworkVersionString[];
+FOUNDATION_EXPORT double AlamofireVersionNumber;
+FOUNDATION_EXPORT const unsigned char AlamofireVersionString[];
 

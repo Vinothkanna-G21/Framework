@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-SingleFramework.xcscheme</key>
+		<key>Alamofire.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>secondTestFramework.xcscheme</key>
+		<key>Pods-SingleFramework.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
