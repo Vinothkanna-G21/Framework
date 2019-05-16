@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import secondTestFramework
+// import secondTestFramework
 
 public class interfaceClass {
     public init() {
@@ -15,7 +15,7 @@ public class interfaceClass {
     }
 
     public static func getString(For name: String) -> String {
-        let str = PersonalInfo.getInfo(With: name)
-        return str
+//         let str = PersonalInfo.getInfo(With: name)
+        return name
     }
 }
